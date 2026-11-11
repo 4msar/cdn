@@ -1,4 +1,5 @@
-# Cloudflare Pages response headers. Ignored by GitHub Pages.
+# Response headers for Cloudflare Workers static assets (and Cloudflare Pages).
+# Ignored by GitHub Pages.
 # Font files are versioned (?v=) so they can be cached for a month;
 # stylesheets and pages stay short-lived so updates reach users quickly.
 

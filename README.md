@@ -56,8 +56,23 @@ When a family's files change, bump its `version` in the manifest. The version is
 
 The site is static: build it and publish `dist/`.
 
-- **GitHub Pages:** `.github/workflows/deploy.yml` builds and deploys on every push to `main`. The repository's Pages source must be set to "GitHub Actions".
-- **Cloudflare Pages:** build command `npm run build`, output directory `dist`. `public/_headers` sets long cache lifetimes for font files and open CORS headers.
+### Cloudflare Workers
+
+`wrangler.jsonc` defines an assets-only Worker that serves `dist/`. `public/_headers` gives font files a month-long cache lifetime, stylesheets four hours, and open CORS headers.
+
+```bash
+npx wrangler login   # once
+npm run deploy       # build, then deploy
+npm run cf:dev       # build, then serve locally exactly as the Worker would
+```
+
+`.github/workflows/deploy-cloudflare.yml` deploys on every push to `main`. It needs the repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+
+To serve `cdn.msar.me` from the Worker, uncomment the `routes` entry in `wrangler.jsonc`. Remove the domain's existing DNS record first, because the deploy creates its own.
+
+### GitHub Pages
+
+`.github/workflows/deploy.yml` can be run by hand from the Actions tab. The repository's Pages source must be set to "GitHub Actions".
 
 ## Credits
 

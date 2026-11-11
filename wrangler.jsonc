@@ -1,0 +1,17 @@
+// Cloudflare Workers deployment: an assets-only Worker that serves the built site.
+// Deploy with `npm run deploy` (builds first), preview locally with `npm run cf:dev`.
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "cdn",
+    "compatibility_date": "2026-11-01",
+    "assets": {
+        "directory": "./dist",
+        "html_handling": "auto-trailing-slash",
+        "not_found_handling": "404-page",
+    },
+
+    // Uncomment to serve cdn.msar.me from this Worker. The first deploy with this
+    // enabled moves the live domain here, so remove the existing DNS record for
+    // cdn.msar.me (currently pointing at GitHub Pages) in the Cloudflare dashboard first.
+    // "routes": [{ "pattern": "cdn.msar.me", "custom_domain": true }]
+}
