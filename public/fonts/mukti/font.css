@@ -1,0 +1,22 @@
+/*
+Mukti — https://cdn.msar.me/fonts/mukti/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - Mukti
+
+Usage example:
+  :root { font-family: 'Mukti', sans-serif; }
+*/
+@font-face {
+  font-family: 'Mukti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Mukti.eot');
+  src: url('Mukti.woff2?v=2') format('woff2'),
+       url('Mukti.woff?v=2') format('woff'),
+       url('Mukti.ttf?v=2') format('truetype'),
+       url('Mukti.svg?v=2#Mukti') format('svg'),
+       url('Mukti.eot?v=2&#iefix') format('embedded-opentype');
+}

@@ -1,0 +1,22 @@
+/*
+CharukolaUltraLight — https://cdn.msar.me/fonts/charukola-ultra-light/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - CharukolaUltraLight
+
+Usage example:
+  :root { font-family: 'CharukolaUltraLight', sans-serif; }
+*/
+@font-face {
+  font-family: 'CharukolaUltraLight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('CharukolaUltraLight.eot');
+  src: url('CharukolaUltraLight.woff2?v=2') format('woff2'),
+       url('CharukolaUltraLight.woff?v=2') format('woff'),
+       url('CharukolaUltraLight.ttf?v=2') format('truetype'),
+       url('CharukolaUltraLight.svg?v=2#CharukolaUltraLight') format('svg'),
+       url('CharukolaUltraLight.eot?v=2&#iefix') format('embedded-opentype');
+}

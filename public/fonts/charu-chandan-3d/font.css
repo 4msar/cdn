@@ -1,0 +1,22 @@
+/*
+CharuChandan3D — https://cdn.msar.me/fonts/charu-chandan-3d/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - CharuChandan3D
+
+Usage example:
+  :root { font-family: 'CharuChandan3D', sans-serif; }
+*/
+@font-face {
+  font-family: 'CharuChandan3D';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('CharuChandan3D.eot');
+  src: url('CharuChandan3D.woff2?v=2') format('woff2'),
+       url('CharuChandan3D.woff?v=2') format('woff'),
+       url('CharuChandan3D.ttf?v=2') format('truetype'),
+       url('CharuChandan3D.svg?v=2#CharuChandan3D') format('svg'),
+       url('CharuChandan3D.eot?v=2&#iefix') format('embedded-opentype');
+}

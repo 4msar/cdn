@@ -1,0 +1,22 @@
+/*
+AponaLohit — https://cdn.msar.me/fonts/apona-lohit/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - AponaLohit
+
+Usage example:
+  :root { font-family: 'AponaLohit', sans-serif; }
+*/
+@font-face {
+  font-family: 'AponaLohit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('AponaLohit.eot');
+  src: url('AponaLohit.woff2?v=2') format('woff2'),
+       url('AponaLohit.woff?v=2') format('woff'),
+       url('AponaLohit.ttf?v=2') format('truetype'),
+       url('AponaLohit.svg?v=2#AponaLohit') format('svg'),
+       url('AponaLohit.eot?v=2&#iefix') format('embedded-opentype');
+}

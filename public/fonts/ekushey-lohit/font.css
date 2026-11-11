@@ -1,0 +1,22 @@
+/*
+EkusheyLohit — https://cdn.msar.me/fonts/ekushey-lohit/
+License: SIL Open Font License 1.0
+
+Font families defined by this CSS:
+  - EkusheyLohit
+
+Usage example:
+  :root { font-family: 'EkusheyLohit', sans-serif; }
+*/
+@font-face {
+  font-family: 'EkusheyLohit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('EkusheyLohit.eot');
+  src: url('EkusheyLohit.woff2?v=2') format('woff2'),
+       url('EkusheyLohit.woff?v=2') format('woff'),
+       url('EkusheyLohit.ttf?v=2') format('truetype'),
+       url('EkusheyLohit.svg?v=2#EkusheyLohit') format('svg'),
+       url('EkusheyLohit.eot?v=2&#iefix') format('embedded-opentype');
+}

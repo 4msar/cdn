@@ -1,0 +1,2614 @@
+[
+  {
+    "slug": "anek-bangla",
+    "name": "Anek Bangla",
+    "family": "Anek Bangla",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Ek Type",
+    "description": "A contemporary grotesque from the multi-script Anek family, compact and confident in headlines. Eight weights and a variable font.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/anek-bangla/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Anek+Bangla",
+    "version": "16",
+    "faces": [
+      {
+        "family": "Anek Bangla Variable",
+        "style": "normal",
+        "weight": "100 800",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla Variable",
+        "style": "normal",
+        "weight": "100 800",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla Variable",
+        "style": "normal",
+        "weight": "100 800",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-bengali-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-ext-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Anek Bangla",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/anek-bangla-latin-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "noto-sans-bengali",
+    "name": "Noto Sans Bengali",
+    "family": "Noto Sans Bengali",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Google",
+    "description": "An unmodulated sans for Bangla from the Noto project, built to harmonise across scripts. Nine weights and a variable font.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/noto-sans-bengali/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Noto+Sans+Bengali",
+    "version": "33",
+    "faces": [
+      {
+        "family": "Noto Sans Bengali Variable",
+        "style": "normal",
+        "weight": "100 900",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali Variable",
+        "style": "normal",
+        "weight": "100 900",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali Variable",
+        "style": "normal",
+        "weight": "100 900",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "900",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-bengali-900-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "900",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-ext-900-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Sans Bengali",
+        "style": "normal",
+        "weight": "900",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-sans-bengali-latin-900-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "noto-serif-bengali",
+    "name": "Noto Serif Bengali",
+    "family": "Noto Serif Bengali",
+    "script": "bangla",
+    "category": "serif",
+    "designer": "Google",
+    "description": "The modulated serif companion to Noto Sans Bengali, suited to long-form reading. Nine weights and a variable font.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/noto-serif-bengali/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Noto+Serif+Bengali",
+    "version": "31",
+    "faces": [
+      {
+        "family": "Noto Serif Bengali Variable",
+        "style": "normal",
+        "weight": "100 900",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali Variable",
+        "style": "normal",
+        "weight": "100 900",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali Variable",
+        "style": "normal",
+        "weight": "100 900",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "100",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-100-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "200",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-200-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "900",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-bengali-900-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "900",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-ext-900-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Noto Serif Bengali",
+        "style": "normal",
+        "weight": "900",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/noto-serif-bengali-latin-900-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hind-siliguri",
+    "name": "Hind Siliguri",
+    "family": "Hind Siliguri",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Indian Type Foundry",
+    "description": "A humanist sans designed for user interfaces, with open counters and even rhythm. Five weights.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/hind-siliguri/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Hind+Siliguri",
+    "version": "14",
+    "faces": [
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-bengali-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-ext-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-ext-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-bengali-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-ext-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-bengali-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-ext-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-bengali-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-ext-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Hind Siliguri",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/hind-siliguri-latin-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "tiro-bangla",
+    "name": "Tiro Bangla",
+    "family": "Tiro Bangla",
+    "script": "bangla",
+    "category": "serif",
+    "designer": "Tiro Typeworks — John Hudson, Fiona Ross",
+    "description": "A classical text face for literary publishing, with a true italic.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/tiro-bangla/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Tiro+Bangla",
+    "version": "8",
+    "faces": [
+      {
+        "family": "Tiro Bangla",
+        "style": "italic",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/tiro-bangla-bengali-400-italic.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Tiro Bangla",
+        "style": "italic",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/tiro-bangla-latin-ext-400-italic.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Tiro Bangla",
+        "style": "italic",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/tiro-bangla-latin-400-italic.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Tiro Bangla",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/tiro-bangla-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Tiro Bangla",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/tiro-bangla-latin-ext-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Tiro Bangla",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/tiro-bangla-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "baloo-da-2",
+    "name": "Baloo Da 2",
+    "family": "Baloo Da 2",
+    "script": "bangla",
+    "category": "display",
+    "designer": "Ek Type",
+    "description": "A rounded, heavy-spirited display face with real warmth. Five weights and a variable font.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/baloo-da-2/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Baloo+Da+2",
+    "version": "26",
+    "faces": [
+      {
+        "family": "Baloo Da 2 Variable",
+        "style": "normal",
+        "weight": "400 800",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-bengali-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2 Variable",
+        "style": "normal",
+        "weight": "400 800",
+        "unicodeRange": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-vietnamese-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2 Variable",
+        "style": "normal",
+        "weight": "400 800",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-ext-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2 Variable",
+        "style": "normal",
+        "weight": "400 800",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-wght-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-vietnamese-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-ext-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-bengali-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-vietnamese-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-ext-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-bengali-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-vietnamese-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-ext-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-bengali-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-vietnamese-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-ext-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-bengali-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-vietnamese-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-ext-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Baloo Da 2",
+        "style": "normal",
+        "weight": "800",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/baloo-da-2-latin-800-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "atma",
+    "name": "Atma",
+    "family": "Atma",
+    "script": "bangla",
+    "category": "display",
+    "designer": "Black Foundry",
+    "description": "A playful, hand-drawn display face that works for comics, children’s books and headlines. Five weights.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/atma/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Atma",
+    "version": "19",
+    "faces": [
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/atma-bengali-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/atma-latin-ext-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "300",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/atma-latin-300-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/atma-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/atma-latin-ext-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/atma-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/atma-bengali-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/atma-latin-ext-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "500",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/atma-latin-500-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/atma-bengali-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/atma-latin-ext-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "600",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/atma-latin-600-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/atma-bengali-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/atma-latin-ext-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Atma",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/atma-latin-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mina",
+    "name": "Mina",
+    "family": "Mina",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Suman Bhandary, Natanael Gama",
+    "description": "A geometric sans with a technical feel, in regular and bold.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/mina/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Mina",
+    "version": "14",
+    "faces": [
+      {
+        "family": "Mina",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/mina-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Mina",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/mina-latin-ext-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Mina",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/mina-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Mina",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/mina-bengali-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Mina",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+        "src": [
+          {
+            "path": "font-files/mina-latin-ext-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Mina",
+        "style": "normal",
+        "weight": "700",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/mina-latin-700-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "galada",
+    "name": "Galada",
+    "family": "Galada",
+    "script": "bangla",
+    "category": "display",
+    "designer": "Black Foundry, Pablo Impallari",
+    "description": "A brush script for Bangla, built as the companion to the Latin script face Lobster.",
+    "license": "SIL Open Font License 1.1",
+    "licenseUrl": "/fonts/galada/LICENSE.txt",
+    "source": "Google Fonts",
+    "sourceUrl": "https://fonts.google.com/specimen/Galada",
+    "version": "21",
+    "faces": [
+      {
+        "family": "Galada",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1",
+        "src": [
+          {
+            "path": "font-files/galada-bengali-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      },
+      {
+        "family": "Galada",
+        "style": "normal",
+        "weight": "400",
+        "unicodeRange": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+        "src": [
+          {
+            "path": "font-files/galada-latin-400-normal.woff2",
+            "format": "woff2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "kalpurush",
+    "name": "Kalpurush",
+    "family": "Kalpurush",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Md. Tanbin Islam Siyam",
+    "description": "Designed by Md. Tanbin Islam Siyam and developed under the Avro Free Bangla Font Project.",
+    "license": "Not stated by the source",
+    "source": "OmicronLab",
+    "sourceUrl": "https://www.omicronlab.com/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "Kalpurush",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "Kalpurush.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "Kalpurush.woff",
+            "format": "woff"
+          },
+          {
+            "path": "Kalpurush.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "Kalpurush.svg",
+            "format": "svg"
+          },
+          {
+            "path": "Kalpurush.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "solaiman-lipi",
+    "name": "SolaimanLipi",
+    "family": "SolaimanLipi",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Solaiman Karim, Saif Hassan",
+    "description": "Designed by Solaiman Karim and later updated by Saif Hassan. One of the most widely used Bangla Unicode fonts.",
+    "license": "GNU GPL v2",
+    "source": "Ekushey",
+    "sourceUrl": "http://ekushey.org/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "SolaimanLipi",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "SolaimanLipi.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "SolaimanLipi.woff",
+            "format": "woff"
+          },
+          {
+            "path": "SolaimanLipi.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "SolaimanLipi.svg",
+            "format": "svg"
+          },
+          {
+            "path": "SolaimanLipi.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "siyam-rupali",
+    "name": "SiyamRupali",
+    "family": "SiyamRupali",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Md. Tanbin Islam Siyam",
+    "description": "A modified version of the Rupali Bangla font, hinted by Md. Tanbin Islam Siyam and developed under the Avro Free Bangla Font Project.",
+    "license": "Not stated by the source",
+    "source": "OmicronLab",
+    "sourceUrl": "https://www.omicronlab.com/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "SiyamRupali",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "SiyamRupali.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "SiyamRupali.woff",
+            "format": "woff"
+          },
+          {
+            "path": "SiyamRupali.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "SiyamRupali.svg",
+            "format": "svg"
+          },
+          {
+            "path": "SiyamRupali.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "adorsho-lipi",
+    "name": "AdorshoLipi",
+    "family": "AdorshoLipi",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "",
+    "description": "A clean, upright Bangla text face.",
+    "license": "Not stated by the source",
+    "source": "cgimagine",
+    "sourceUrl": "",
+    "version": "2",
+    "faces": [
+      {
+        "family": "AdorshoLipi",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "AdorshoLipi.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "AdorshoLipi.woff",
+            "format": "woff"
+          },
+          {
+            "path": "AdorshoLipi.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "AdorshoLipi.svg",
+            "format": "svg"
+          },
+          {
+            "path": "AdorshoLipi.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "apona-lohit",
+    "name": "AponaLohit",
+    "family": "AponaLohit",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Ershadul Haq, Alamgir Mohammed",
+    "description": "The Lohit font from Ekushey with additional hinting for a better look on screen. TrueType hinting was started by Ershadul Haq and later improved by Alamgir Mohammed.",
+    "license": "Not stated by the source",
+    "source": "",
+    "sourceUrl": "",
+    "version": "2",
+    "faces": [
+      {
+        "family": "AponaLohit",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "AponaLohit.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "AponaLohit.woff",
+            "format": "woff"
+          },
+          {
+            "path": "AponaLohit.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "AponaLohit.svg",
+            "format": "svg"
+          },
+          {
+            "path": "AponaLohit.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ekushey-lohit",
+    "name": "EkusheyLohit",
+    "family": "EkusheyLohit",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Automatic Control Equipments, Ekushey",
+    "description": "Glyphs taken from Lohit Bengali, designed by Automatic Control Equipments, with Unicode conversion by Ekushey.",
+    "license": "SIL Open Font License 1.0",
+    "source": "Free Bangla Font Project",
+    "sourceUrl": "http://www.nongnu.org/freebangfont/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "EkusheyLohit",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "EkusheyLohit.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "EkusheyLohit.woff",
+            "format": "woff"
+          },
+          {
+            "path": "EkusheyLohit.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "EkusheyLohit.svg",
+            "format": "svg"
+          },
+          {
+            "path": "EkusheyLohit.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mukti",
+    "name": "Mukti",
+    "family": "Mukti",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Dr. Anirban Mitra",
+    "description": "Developed by Dr. Anirban Mitra for the Free Bangla Font Project.",
+    "license": "Not stated by the source",
+    "source": "Free Bangla Font Project",
+    "sourceUrl": "http://www.nongnu.org/freebangfont/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "Mukti",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "Mukti.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "Mukti.woff",
+            "format": "woff"
+          },
+          {
+            "path": "Mukti.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "Mukti.svg",
+            "format": "svg"
+          },
+          {
+            "path": "Mukti.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bangla",
+    "name": "Bangla",
+    "family": "Bangla",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "",
+    "description": "A classic Bangla Unicode text face.",
+    "license": "Not stated by the source",
+    "source": "PfEd",
+    "sourceUrl": "",
+    "version": "2",
+    "faces": [
+      {
+        "family": "Bangla",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "Bangla.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "Bangla.woff",
+            "format": "woff"
+          },
+          {
+            "path": "Bangla.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "Bangla.svg",
+            "format": "svg"
+          },
+          {
+            "path": "Bangla.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bensen",
+    "name": "BenSen",
+    "family": "BenSen",
+    "script": "bangla",
+    "category": "sans-serif",
+    "designer": "Subrata Sen",
+    "description": "A Bangla text face developed by Subrata Sen.",
+    "license": "Not stated by the source",
+    "source": "Subrata Sen",
+    "sourceUrl": "http://www.subratasen.com/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "BenSen",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "BenSen.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "BenSen.woff",
+            "format": "woff"
+          },
+          {
+            "path": "BenSen.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "BenSen.svg",
+            "format": "svg"
+          },
+          {
+            "path": "BenSen.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "charu-chandan-3d",
+    "name": "CharuChandan3D",
+    "family": "CharuChandan3D",
+    "script": "bangla",
+    "category": "display",
+    "designer": "",
+    "description": "A three-dimensional display face from the Charu Chandan collection.",
+    "license": "Not stated by the source",
+    "source": "Charu Chandan",
+    "sourceUrl": "http://www.charuchandan.com/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "CharuChandan3D",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "CharuChandan3D.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "CharuChandan3D.woff",
+            "format": "woff"
+          },
+          {
+            "path": "CharuChandan3D.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "CharuChandan3D.svg",
+            "format": "svg"
+          },
+          {
+            "path": "CharuChandan3D.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "charu-chandan-hard-stroke",
+    "name": "CharuChandanHardStroke",
+    "family": "CharuChandanHardStroke",
+    "script": "bangla",
+    "category": "display",
+    "designer": "",
+    "description": "A heavy brush-stroke display face from the Charu Chandan collection.",
+    "license": "Not stated by the source",
+    "source": "Charu Chandan",
+    "sourceUrl": "http://www.charuchandan.com/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "CharuChandanHardStroke",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "CharuChandanHardStroke.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "CharuChandanHardStroke.woff",
+            "format": "woff"
+          },
+          {
+            "path": "CharuChandanHardStroke.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "CharuChandanHardStroke.svg",
+            "format": "svg"
+          },
+          {
+            "path": "CharuChandanHardStroke.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "charukola-ultra-light",
+    "name": "CharukolaUltraLight",
+    "family": "CharukolaUltraLight",
+    "script": "bangla",
+    "category": "display",
+    "designer": "",
+    "description": "A hairline display face from the Charu Chandan collection.",
+    "license": "Not stated by the source",
+    "source": "Charu Chandan",
+    "sourceUrl": "http://www.charuchandan.com/",
+    "version": "2",
+    "faces": [
+      {
+        "family": "CharukolaUltraLight",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "CharukolaUltraLight.woff2",
+            "format": "woff2"
+          },
+          {
+            "path": "CharukolaUltraLight.woff",
+            "format": "woff"
+          },
+          {
+            "path": "CharukolaUltraLight.ttf",
+            "format": "truetype"
+          },
+          {
+            "path": "CharukolaUltraLight.svg",
+            "format": "svg"
+          },
+          {
+            "path": "CharukolaUltraLight.eot",
+            "format": "embedded-opentype"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "tiempos",
+    "dir": "Tiempos",
+    "name": "Tiempos Headline",
+    "family": "Tiempos",
+    "script": "latin",
+    "category": "serif",
+    "designer": "Kris Sowersby",
+    "description": "A headline serif in four weights with italics.",
+    "license": "Commercial — Klim Type Foundry",
+    "source": "Klim Type Foundry",
+    "sourceUrl": "https://klim.co.nz/",
+    "managedCss": false,
+    "faces": [
+      {
+        "family": "Tiempos",
+        "style": "normal",
+        "weight": "300",
+        "src": [
+          {
+            "path": "TiemposHeadline-Light.otf",
+            "format": "opentype"
+          }
+        ]
+      },
+      {
+        "family": "Tiempos",
+        "style": "italic",
+        "weight": "300",
+        "src": [
+          {
+            "path": "TiemposHeadline-LightItalic.otf",
+            "format": "opentype"
+          }
+        ]
+      },
+      {
+        "family": "Tiempos",
+        "style": "normal",
+        "weight": "400",
+        "src": [
+          {
+            "path": "TiemposHeadline-Regular.otf",
+            "format": "opentype"
+          }
+        ]
+      },
+      {
+        "family": "Tiempos",
+        "style": "italic",
+        "weight": "400",
+        "src": [
+          {
+            "path": "TiemposHeadline-RegularItalic.otf",
+            "format": "opentype"
+          }
+        ]
+      },
+      {
+        "family": "Tiempos",
+        "style": "normal",
+        "weight": "500",
+        "src": [
+          {
+            "path": "TiemposHeadline-Medium.otf",
+            "format": "opentype"
+          }
+        ]
+      },
+      {
+        "family": "Tiempos",
+        "style": "italic",
+        "weight": "500",
+        "src": [
+          {
+            "path": "TiemposHeadline-MediumItalic.otf",
+            "format": "opentype"
+          }
+        ]
+      },
+      {
+        "family": "Tiempos",
+        "style": "normal",
+        "weight": "600",
+        "src": [
+          {
+            "path": "TiemposHeadline-Bold.otf",
+            "format": "opentype"
+          }
+        ]
+      },
+      {
+        "family": "Tiempos",
+        "style": "italic",
+        "weight": "600",
+        "src": [
+          {
+            "path": "TiemposHeadline-BoldItalic.otf",
+            "format": "opentype"
+          }
+        ]
+      }
+    ]
+  }
+]

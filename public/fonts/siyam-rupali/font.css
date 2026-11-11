@@ -1,0 +1,22 @@
+/*
+SiyamRupali — https://cdn.msar.me/fonts/siyam-rupali/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - SiyamRupali
+
+Usage example:
+  :root { font-family: 'SiyamRupali', sans-serif; }
+*/
+@font-face {
+  font-family: 'SiyamRupali';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('SiyamRupali.eot');
+  src: url('SiyamRupali.woff2?v=2') format('woff2'),
+       url('SiyamRupali.woff?v=2') format('woff'),
+       url('SiyamRupali.ttf?v=2') format('truetype'),
+       url('SiyamRupali.svg?v=2#SiyamRupali') format('svg'),
+       url('SiyamRupali.eot?v=2&#iefix') format('embedded-opentype');
+}

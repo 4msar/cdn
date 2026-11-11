@@ -1,0 +1,22 @@
+/*
+SolaimanLipi — https://cdn.msar.me/fonts/solaiman-lipi/
+License: GNU GPL v2
+
+Font families defined by this CSS:
+  - SolaimanLipi
+
+Usage example:
+  :root { font-family: 'SolaimanLipi', sans-serif; }
+*/
+@font-face {
+  font-family: 'SolaimanLipi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('SolaimanLipi.eot');
+  src: url('SolaimanLipi.woff2?v=2') format('woff2'),
+       url('SolaimanLipi.woff?v=2') format('woff'),
+       url('SolaimanLipi.ttf?v=2') format('truetype'),
+       url('SolaimanLipi.svg?v=2#SolaimanLipi') format('svg'),
+       url('SolaimanLipi.eot?v=2&#iefix') format('embedded-opentype');
+}

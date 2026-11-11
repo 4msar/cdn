@@ -1,0 +1,22 @@
+# Cloudflare Pages response headers. Ignored by GitHub Pages.
+# Font files are versioned (?v=) so they can be cached for a month;
+# stylesheets and pages stay short-lived so updates reach users quickly.
+
+/fonts/*
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=2678400
+
+/fonts/:family/font.css
+  ! Cache-Control
+  Cache-Control: public, max-age=14400
+
+/fonts/
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
+
+/fonts/:family/
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

@@ -1,0 +1,22 @@
+/*
+Bangla — https://cdn.msar.me/fonts/bangla/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - Bangla
+
+Usage example:
+  :root { font-family: 'Bangla', sans-serif; }
+*/
+@font-face {
+  font-family: 'Bangla';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Bangla.eot');
+  src: url('Bangla.woff2?v=2') format('woff2'),
+       url('Bangla.woff?v=2') format('woff'),
+       url('Bangla.ttf?v=2') format('truetype'),
+       url('Bangla.svg?v=2#Bangla') format('svg'),
+       url('Bangla.eot?v=2&#iefix') format('embedded-opentype');
+}

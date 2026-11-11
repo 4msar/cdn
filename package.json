@@ -1,0 +1,20 @@
+{
+  "name": "msar-cdn",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Open CDN for Bangla web fonts — cdn.msar.me",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "fonts:sync": "node scripts/sync-fonts.mjs",
+    "fonts:import": "node scripts/import-fontsource.mjs"
+  },
+  "devDependencies": {
+    "fontkit": "^2.0.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "wawoff2": "^2.0.1"
+  }
+}

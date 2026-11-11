@@ -1,0 +1,22 @@
+/*
+Kalpurush — https://cdn.msar.me/fonts/kalpurush/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - Kalpurush
+
+Usage example:
+  :root { font-family: 'Kalpurush', sans-serif; }
+*/
+@font-face {
+  font-family: 'Kalpurush';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Kalpurush.eot');
+  src: url('Kalpurush.woff2?v=2') format('woff2'),
+       url('Kalpurush.woff?v=2') format('woff'),
+       url('Kalpurush.ttf?v=2') format('truetype'),
+       url('Kalpurush.svg?v=2#Kalpurush') format('svg'),
+       url('Kalpurush.eot?v=2&#iefix') format('embedded-opentype');
+}

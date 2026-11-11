@@ -1,0 +1,22 @@
+/*
+CharuChandanHardStroke — https://cdn.msar.me/fonts/charu-chandan-hard-stroke/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - CharuChandanHardStroke
+
+Usage example:
+  :root { font-family: 'CharuChandanHardStroke', sans-serif; }
+*/
+@font-face {
+  font-family: 'CharuChandanHardStroke';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('CharuChandanHardStroke.eot');
+  src: url('CharuChandanHardStroke.woff2?v=2') format('woff2'),
+       url('CharuChandanHardStroke.woff?v=2') format('woff'),
+       url('CharuChandanHardStroke.ttf?v=2') format('truetype'),
+       url('CharuChandanHardStroke.svg?v=2#CharuChandanHardStroke') format('svg'),
+       url('CharuChandanHardStroke.eot?v=2&#iefix') format('embedded-opentype');
+}

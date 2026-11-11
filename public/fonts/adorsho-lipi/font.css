@@ -1,0 +1,22 @@
+/*
+AdorshoLipi — https://cdn.msar.me/fonts/adorsho-lipi/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - AdorshoLipi
+
+Usage example:
+  :root { font-family: 'AdorshoLipi', sans-serif; }
+*/
+@font-face {
+  font-family: 'AdorshoLipi';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('AdorshoLipi.eot');
+  src: url('AdorshoLipi.woff2?v=2') format('woff2'),
+       url('AdorshoLipi.woff?v=2') format('woff'),
+       url('AdorshoLipi.ttf?v=2') format('truetype'),
+       url('AdorshoLipi.svg?v=2#AdorshoLipi') format('svg'),
+       url('AdorshoLipi.eot?v=2&#iefix') format('embedded-opentype');
+}

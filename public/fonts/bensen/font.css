@@ -1,0 +1,22 @@
+/*
+BenSen — https://cdn.msar.me/fonts/bensen/
+License: Not stated by the source
+
+Font families defined by this CSS:
+  - BenSen
+
+Usage example:
+  :root { font-family: 'BenSen', sans-serif; }
+*/
+@font-face {
+  font-family: 'BenSen';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('BenSen.eot');
+  src: url('BenSen.woff2?v=2') format('woff2'),
+       url('BenSen.woff?v=2') format('woff'),
+       url('BenSen.ttf?v=2') format('truetype'),
+       url('BenSen.svg?v=2#BenSen') format('svg'),
+       url('BenSen.eot?v=2&#iefix') format('embedded-opentype');
+}
