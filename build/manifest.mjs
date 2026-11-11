@@ -52,16 +52,30 @@ export function familiesOf(font) {
 export const isVariableFamily = (font, family) =>
   font.faces.some((f) => f.family === family && String(f.weight).includes(' '))
 
-export const staticFamily = (font) =>
-  familiesOf(font).find((f) => !isVariableFamily(font, f)) ?? font.family
+/** The static family, or undefined when a font ships only as a variable font. */
+export const staticFamily = (font) => familiesOf(font).find((f) => !isVariableFamily(font, f))
 export const variableFamily = (font) => familiesOf(font).find((f) => isVariableFamily(font, f))
+
+export const fallbackOf = (font) =>
+  font.category === 'serif' ? 'serif' : font.category === 'monospace' ? 'monospace' : 'sans-serif'
+
+/** The CSS a site needs to use the family, variable font preferred where there is a choice. */
+export function usageCss(font, indent = '') {
+  const st = staticFamily(font)
+  const vr = variableFamily(font)
+  const fb = fallbackOf(font)
+  if (!st || !vr) return [`${indent}:root { font-family: '${st ?? vr}', ${fb}; }`]
+  return [
+    `${indent}:root { font-family: '${st}', ${fb}; }`,
+    `${indent}@supports (font-variation-settings: normal) {`,
+    `${indent}  :root { font-family: '${vr}', ${fb}; }`,
+    `${indent}}`,
+  ]
+}
 
 /** The full font.css served at /fonts/<dir>/font.css. */
 export function fontCss(font) {
   const fams = familiesOf(font)
-  const fallback = font.category === 'serif' ? 'serif' : 'sans-serif'
-  const st = staticFamily(font)
-  const vr = variableFamily(font)
   const header = [
     '/*',
     `${font.name} — ${SITE}/fonts/${dirOf(font)}/`,
@@ -71,10 +85,7 @@ export function fontCss(font) {
     ...fams.map((f) => `  - ${f}${isVariableFamily(font, f) ? '  (variable font, for modern browsers)' : ''}`),
     '',
     'Usage example:',
-    `  :root { font-family: '${st}', ${fallback}; }`,
-    ...(vr
-      ? ['  @supports (font-variation-settings: normal) {', `    :root { font-family: '${vr}', ${fallback}; }`, '  }']
-      : []),
+    ...usageCss(font, '  '),
     '*/',
   ].filter((l) => l !== null)
   return header.join('\n') + '\n' + font.faces.map((f) => faceCss(font, f)).join('\n') + '\n'

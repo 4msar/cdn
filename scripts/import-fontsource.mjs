@@ -7,10 +7,13 @@
 //   npm run fonts:sync
 //
 // Pass --from <dir> to read packages from another folder's node_modules.
+// Pass --variable-only to skip the static weights of families that have a variable font.
 import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { MANIFEST, ROOT, loadFonts } from '../build/manifest.mjs'
 
 const args = process.argv.slice(2)
+const variableOnly = args.includes('--variable-only')
+if (variableOnly) args.splice(args.indexOf('--variable-only'), 1)
 const fromAt = args.indexOf('--from')
 const from = (fromAt >= 0 ? args.splice(fromAt, 2)[1].replace(/\/?$/, '/') : ROOT) + 'node_modules/'
 if (!args.length) throw new Error('usage: import-fontsource.mjs <fontsource-id>... [--from <dir>]')
@@ -57,7 +60,7 @@ for (const id of args) {
   if (existsSync(variableDir)) {
     take(variableDir, readdirSync(variableDir).filter((f) => /^wght(-italic)?\.css$/.test(f)).sort())
   }
-  take(staticDir, readdirSync(staticDir).filter((f) => /^\d+(-italic)?\.css$/.test(f)).sort())
+  if (!faces.length || !variableOnly) take(staticDir, readdirSync(staticDir).filter((f) => /^\d+(-italic)?\.css$/.test(f)).sort())
   copyFileSync(staticDir + 'LICENSE', out + 'LICENSE.txt')
 
   const previous = fonts.find((f) => f.slug === id) ?? {}
@@ -69,7 +72,7 @@ for (const id of args) {
     category: meta.category,
     designer: meta.license.attribution,
     description: '',
-    license: meta.license.type === 'OFL-1.1' ? 'SIL Open Font License 1.1' : meta.license.type,
+    license: { 'OFL-1.1': 'SIL Open Font License 1.1', 'Apache-2.0': 'Apache License 2.0' }[meta.license.type] ?? meta.license.type,
     licenseUrl: `/fonts/${id}/LICENSE.txt`,
     source: 'Google Fonts',
     sourceUrl: `https://fonts.google.com/specimen/${meta.family.replace(/ /g, '+')}`,

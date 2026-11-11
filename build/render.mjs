@@ -1,7 +1,7 @@
 // Renders the catalogue and the per-family specimen pages to HTML strings.
 import { statSync } from 'node:fs'
 import * as fontkit from 'fontkit'
-import { ROOT, SITE, dirOf, faceCss, isVariableFamily, staticFamily, variableFamily } from './manifest.mjs'
+import { ROOT, SITE, dirOf, faceCss, staticFamily, usageCss, variableFamily } from './manifest.mjs'
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c])
 
@@ -38,20 +38,23 @@ const PASSAGE = {
   ],
 }
 
-const fallbackOf = (font) => (font.category === 'serif' ? 'serif' : 'sans-serif')
-
 /** CSS font-family value that shows the family, variable first. */
 function stack(font) {
   const v = variableFamily(font)
   return [v, staticFamily(font)].filter(Boolean).map((f) => `'${f}'`).join(', ') + `, var(--ui)`
 }
 
-/** Distinct static styles, lightest first, upright before italic. */
+/** Distinct named styles, lightest first, upright before italic. */
 function stylesOf(font) {
   const fam = staticFamily(font)
   const seen = new Map()
   for (const f of font.faces) {
-    if (f.family === fam) seen.set(`${f.weight}|${f.style}`, { weight: Number(f.weight), style: f.style })
+    if (fam && f.family !== fam) continue
+    // A variable-only family gets one named style per 100 across its weight range.
+    const [min, max = min] = String(f.weight).split(' ').map(Number)
+    for (let weight = Math.ceil(min / 100) * 100; weight <= max; weight += 100) {
+      seen.set(`${weight}|${f.style}`, { weight, style: f.style })
+    }
   }
   return [...seen.values()].sort((a, b) => (a.style === b.style ? a.weight - b.weight : a.style === 'normal' ? -1 : 1))
 }
@@ -74,7 +77,8 @@ function previewFaces(font) {
 /** The file that best represents the family: Bangla subset of the preview face. */
 function primaryFile(font) {
   const faces = previewFaces(font)
-  const face = faces.find((f) => f.src.some((s) => s.path.includes('-bengali-'))) ?? faces[0]
+  const subset = font.script === 'bangla' ? /-bengali-/ : /-latin-(?!ext)/
+  const face = faces.find((f) => f.src.some((s) => subset.test(s.path))) ?? faces[0]
   const src = face.src.find((s) => ['woff2', 'opentype', 'truetype'].includes(s.format))
   return { ...src, abs: `${ROOT}public/fonts/${dirOf(font)}/${src.path}` }
 }
@@ -99,19 +103,12 @@ const code = (text) =>
   `<div class="code"><pre>${esc(text)}</pre><button type="button" class="copy" data-copy>Copy</button></div>`
 
 function usage(font) {
-  const st = staticFamily(font)
-  const vr = variableFamily(font)
-  const fb = fallbackOf(font)
   const html = [
     `<!-- HTML in your document's head -->`,
     `<link rel="preconnect" href="${SITE}">`,
     `<link rel="stylesheet" href="${SITE}/fonts/${dirOf(font)}/font.css">`,
   ].join('\n')
-  const css = [
-    '/* CSS */',
-    `:root { font-family: '${st}', ${fb}; }`,
-    ...(vr ? ['@supports (font-variation-settings: normal) {', `  :root { font-family: '${vr}', ${fb}; }`, '}'] : []),
-  ].join('\n')
+  const css = ['/* CSS */', ...usageCss(font)].join('\n')
   return code(html) + code(css)
 }
 
@@ -140,9 +137,15 @@ function summary(font) {
 export function renderHome(fonts) {
   const styleCount = fonts.reduce((n, f) => n + stylesOf(f).length, 0)
   const faces = fonts
-    .map((f) => previewFaces(f).map((face) => faceCss(f, face, `/fonts/${dirOf(f)}/`)).join('\n'))
+    .map((f) =>
+      previewFaces(f)
+        .filter((face) => !face.unicodeRange || /-(bengali|latin|latin-ext)-/.test(face.src[0].path))
+        .map((face) => faceCss(f, face, `/fonts/${dirOf(f)}/`))
+        .join('\n'),
+    )
     .join('\n')
-  const rows = fonts
+  const rowsOf = (script) => fonts
+    .filter((font) => font.script === script)
     .map((font, i) => {
       const line = LINES[font.script][i % LINES[font.script].length]
       return `
@@ -154,14 +157,14 @@ export function renderHome(fonts) {
     .join('')
   const example = fonts[0]
   const body = `
-${nav([['#fonts', 'Fonts'], ['#usage', 'Usage'], ['#about', 'About'], ['https://github.com/4msar/cdn', 'GitHub ↗']])}
+${nav([['#bangla', 'Bangla'], ['#latin', 'Latin'], ['#usage', 'Usage'], ['#about', 'About'], ['https://github.com/4msar/cdn', 'GitHub ↗']])}
 <main>
   <section class="hero">
-    <h1>Bangla web fonts, delivered&nbsp;fast</h1>
+    <h1>Web fonts, delivered&nbsp;fast</h1>
     <div class="cols">
       <p class="label">${fonts.length} families<br>${styleCount} styles</p>
-      <p>An open CDN for Bengali typography. Every family is one stylesheet away: add a single <code>&lt;link&gt;</code> tag, name the font in your CSS, and the files arrive compressed as <code>woff2</code> from a global edge network.</p>
-      <p>The collection pairs the classic Bangla Unicode faces with modern open-licensed families, several of them variable fonts that cover every weight in one file. Pick a family below to see its styles, glyphs and embed code.</p>
+      <p>An open CDN for web fonts, with Bengali typography at its heart. Every family is one stylesheet away: add a single <code>&lt;link&gt;</code> tag, name the font in your CSS, and the files arrive compressed as <code>woff2</code> from a global edge network.</p>
+      <p>The collection pairs classic Bangla Unicode faces and modern Bangla families with the most widely used open-licensed Latin typefaces, many of them variable fonts that cover every weight in one file. Pick a family below to see its styles, glyphs and embed code.</p>
     </div>
   </section>
 
@@ -171,10 +174,16 @@ ${nav([['#fonts', 'Fonts'], ['#usage', 'Usage'], ['#about', 'About'], ['https://
       <input id="preview" type="text" placeholder="Type your own preview text" aria-label="Preview text" autocomplete="off">
       <label class="range"><span>Size</span><input id="size" type="range" min="24" max="120" value="72" aria-label="Preview size"></label>
     </div>
-    <div class="rows">${rows}
-    </div>
     <p class="empty" id="empty" hidden>No family matches that search.</p>
   </section>
+${[['bangla', 'Bangla'], ['latin', 'Latin']]
+  .map(([script, title]) => `
+  <section class="group" id="${script}">
+    <h2 class="section-title">${title} <span class="dim">${fonts.filter((f) => f.script === script).length} families</span></h2>
+    <div class="rows">${rowsOf(script)}
+    </div>
+  </section>`)
+  .join('')}
 
   <section class="split" id="usage">
     <h2>Usage</h2>
@@ -195,8 +204,8 @@ ${nav([['#fonts', 'Fonts'], ['#usage', 'Usage'], ['#about', 'About'], ['https://
 </main>
 ${footer}`
   return {
-    title: 'MSAR CDN — Bangla web fonts',
-    description: 'An open CDN for Bangla web fonts: classic Unicode faces and modern variable families, one stylesheet each.',
+    title: 'MSAR CDN — Open web fonts',
+    description: 'An open CDN for Bangla and Latin web fonts: classic Unicode faces and popular variable families, one stylesheet each.',
     path: '/',
     head: `${uiFont}\n<style>${faces}</style>`,
     body,
@@ -221,7 +230,7 @@ export function renderFont(font) {
 
   const details = [
     ['Designer', font.designer && esc(font.designer)],
-    ['Styles', `${styles.length}${vr ? ' + variable' : ''}`],
+    ['Styles', `${styles.length}${vr ? (staticFamily(font) ? ' + variable' : ' (variable)') : ''}`],
     ['Weights', w.count > 1 ? `${w.min}–${w.max}` : String(w.min)],
     ['Format', `${[...new Set(font.faces.flatMap((f) => f.src.map((s) => s.format)))].map((f) => ({ truetype: 'ttf', opentype: 'otf', 'embedded-opentype': 'eot' })[f] ?? f).join(', ')}`],
     ['File size', `${kb(statSync(file.abs).size)} <span class="dim">(${esc(file.path.split('/').pop())})</span>`],
@@ -257,7 +266,7 @@ export function renderFont(font) {
   </section>`
 
   const body = `
-${nav([['#usage', 'Usage'], ['#styles', 'Styles'], ['#sample', 'Sample'], ['#glyphs', 'Glyphs'], ['/#fonts', 'All fonts']])}
+${nav([['#usage', 'Usage'], ['#styles', 'Styles'], ['#sample', 'Sample'], ['#glyphs', 'Glyphs'], ['/', 'All fonts']])}
 <main class="specimen" style="--font:${esc(stack(font))}">
   <section class="hero">
     <h1 class="in-font">${esc(font.name)}</h1>

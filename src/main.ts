@@ -52,10 +52,15 @@ if (samples.length) {
   search?.addEventListener('input', () => {
     const query = search.value.trim().toLowerCase()
     let shown = 0
-    for (const row of $$('.row')) {
-      const match = row.dataset.name!.includes(query)
-      row.hidden = !match
-      if (match) shown++
+    for (const group of $$('.group')) {
+      let inGroup = 0
+      for (const row of group.querySelectorAll<HTMLElement>('.row')) {
+        const match = row.dataset.name!.includes(query)
+        row.hidden = !match
+        if (match) inGroup++
+      }
+      group.hidden = inGroup === 0
+      shown += inGroup
     }
     if (empty) empty.hidden = shown > 0
   })

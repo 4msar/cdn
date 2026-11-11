@@ -264,8 +264,17 @@ h2 {
   text-decoration: none;
 }
 
-.row[hidden] {
+.row[hidden],
+.group[hidden] {
   display: none;
+}
+
+#fonts {
+  margin-bottom: 40px;
+}
+
+#fonts .controls {
+  border-bottom: 0;
 }
 
 .row-meta {

@@ -1,6 +1,6 @@
 # MSAR CDN
 
-An open CDN for Bangla web fonts, served at [cdn.msar.me](https://cdn.msar.me).
+An open CDN for web fonts, served at [cdn.msar.me](https://cdn.msar.me): classic and modern Bangla families plus the most widely used open-licensed Latin typefaces.
 
 ```html
 <link rel="preconnect" href="https://cdn.msar.me">
@@ -46,7 +46,7 @@ npm run fonts:import -- hind-siliguri
 npm run fonts:sync
 ```
 
-This copies the `woff2` files and licence into `public/fonts/<id>/`, and adds the family to the manifest. Fill in `designer` and `description` there.
+Add `--variable-only` to skip the static weights when the family has a variable font, which keeps the repository small. This copies the `woff2` files and licence into `public/fonts/<id>/`, and adds the family to the manifest. Fill in `designer` and `description` there.
 
 **From your own files:** put the `.ttf` in `public/fonts/<name>/`, add an entry to `data/fonts.json` listing a `woff2` source next to it, and run `npm run fonts:sync`. The script compresses the `.ttf` to `woff2` and writes `font.css`.
 
