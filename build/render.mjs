@@ -10,7 +10,7 @@ const WEIGHT_NAMES = {
   600: 'SemiBold', 700: 'Bold', 800: 'ExtraBold', 900: 'Black',
 }
 
-const LINES = {
+export const LINES = {
   bangla: [
     'নদীর ধারে সকাল', 'বাংলা হরফের সৌন্দর্য', 'মেঘলা দিনের গল্প', 'শব্দের ভেতর আলো', 'পুরোনো বইয়ের ঘ্রাণ',
     'বৃষ্টিভেজা শহর', 'অক্ষরে অক্ষরে গাঁথা', 'দূরের পথের যাত্রী', 'কাগজের নৌকা ভাসে', 'সন্ধ্যার প্রথম তারা',
@@ -45,7 +45,7 @@ function stack(font) {
 }
 
 /** Distinct named styles, lightest first, upright before italic. */
-function stylesOf(font) {
+export function stylesOf(font) {
   const fam = staticFamily(font)
   const seen = new Map()
   for (const f of font.faces) {
@@ -67,7 +67,7 @@ function weightRange(font) {
 }
 
 /** The faces a catalogue row needs: the variable font, or the weight nearest 400. */
-function previewFaces(font) {
+export function previewFaces(font) {
   const v = variableFamily(font)
   if (v) return font.faces.filter((f) => f.family === v && f.style === 'normal')
   const w = weightRange(font).list.reduce((a, b) => (Math.abs(b - 400) < Math.abs(a - 400) ? b : a))
@@ -127,7 +127,7 @@ const footer = `
 const uiFont = `<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/anek-bangla/font-files/anek-bangla-latin-wght-normal.woff2?v=16">
 <link rel="stylesheet" href="/fonts/anek-bangla/font.css">`
 
-function summary(font) {
+export function summary(font) {
   const w = weightRange(font)
   const parts = [w.count > 1 ? `${stylesOf(font).length} styles` : '1 style']
   if (variableFamily(font)) parts.push('Variable')
@@ -207,6 +207,7 @@ ${footer}`
     title: 'MSAR CDN — Open web fonts',
     description: 'An open CDN for Bangla and Latin web fonts: classic Unicode faces and popular variable families, one stylesheet each.',
     path: '/',
+    image: { path: '/og/default.png', alt: 'MSAR CDN — open web fonts for Bangla and Latin' },
     head: `${uiFont}\n<style>${faces}</style>`,
     body,
   }
@@ -313,15 +314,39 @@ ${footer}`
     title: `${font.name} — MSAR CDN`,
     description: `${font.name} web font on the MSAR CDN. ${font.description}`,
     path: `/fonts/${dirOf(font)}/`,
+    image: { path: `/og/${dirOf(font)}.png`, alt: `${font.name} typeface specimen` },
     head: `${uiFont}\n<link rel="stylesheet" href="/fonts/${dirOf(font)}/font.css">\n<link rel="preload" as="font" type="font/${file.format === 'woff2' ? 'woff2' : 'otf'}" crossorigin href="/fonts/${dirOf(font)}/${file.path}${font.version ? `?v=${font.version}` : ''}">`,
     body,
   }
 }
 
+/** Open Graph and Twitter card tags; pages without their own image use the default card. */
+function social(page) {
+  const image = page.image ?? { path: '/og/default.png', alt: 'MSAR CDN' }
+  const tags = [
+    ['property', 'og:type', 'website'],
+    ['property', 'og:site_name', 'MSAR CDN'],
+    ['property', 'og:title', page.title],
+    ['property', 'og:description', page.description],
+    ['property', 'og:url', SITE + page.path],
+    ['property', 'og:image', SITE + image.path],
+    ['property', 'og:image:type', 'image/png'],
+    ['property', 'og:image:width', 1200],
+    ['property', 'og:image:height', 630],
+    ['property', 'og:image:alt', image.alt],
+    ['name', 'twitter:card', 'summary_large_image'],
+    ['name', 'twitter:title', page.title],
+    ['name', 'twitter:description', page.description],
+    ['name', 'twitter:image', SITE + image.path],
+    ['name', 'twitter:image:alt', image.alt],
+  ]
+  return tags.map(([attr, key, value]) => `<meta ${attr}="${key}" content="${esc(value)}">`).join('\n')
+}
+
 export function fillTemplate(template, page) {
   return template
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(page.title)}</title>`)
-    .replace('<!--head-->', `<meta name="description" content="${esc(page.description)}">\n<link rel="canonical" href="${SITE}${page.path}">\n${page.head}`)
+    .replace('<!--head-->', `<meta name="description" content="${esc(page.description)}">\n<link rel="canonical" href="${SITE}${page.path}">\n${social(page)}\n${page.head}`)
     .replace('<!--app-->', page.body)
 }
 

@@ -3,6 +3,7 @@
 import { copyFileSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { MANIFEST, ROOT, dirOf, loadFonts } from './manifest.mjs'
+import { DEFAULT_OG, ogPath, renderDefaultOg, renderFontOg } from './og.mjs'
 import { fillTemplate, renderFont, renderHome, sitemap } from './render.mjs'
 
 export default function cdnPages() {
@@ -29,6 +30,18 @@ export default function cdnPages() {
           req.url = '/index.html'
           return next()
         }
+        const og = path.match(/^\/og\/([^/]+)\.png$/)?.[1]
+        if (og) {
+          const fonts = loadFonts()
+          const family = fonts.find((f) => dirOf(f) === og)
+          if (!family && path !== DEFAULT_OG) return next()
+          try {
+            res.setHeader('Content-Type', 'image/png')
+            return res.end(await (family ? renderFontOg(family) : renderDefaultOg(fonts)))
+          } catch (error) {
+            return next(error)
+          }
+        }
         const dir = path.match(/^\/fonts\/([^/]+)\/?$/)?.[1]
         const font = dir && loadFonts().find((f) => dirOf(f) === dir)
         if (!font) return next()
@@ -41,7 +54,7 @@ export default function cdnPages() {
         }
       })
     },
-    closeBundle() {
+    async closeBundle() {
       const fonts = loadFonts()
       const template = readFileSync(`${outDir}/font.html`, 'utf8')
       for (const font of fonts) {
@@ -52,6 +65,9 @@ export default function cdnPages() {
       rmSync(`${outDir}/font.html`)
       copyFileSync(`${outDir}/index.html`, `${outDir}/fonts/index.html`)
       writeFileSync(`${outDir}/sitemap.xml`, sitemap(fonts))
+      mkdirSync(`${outDir}/og`, { recursive: true })
+      writeFileSync(outDir + DEFAULT_OG, await renderDefaultOg(fonts))
+      for (const font of fonts) writeFileSync(outDir + ogPath(font), await renderFontOg(font))
     },
   }
 }
